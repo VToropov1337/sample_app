@@ -42,7 +42,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'minitest-reporters'
   gem 'mini_backtrace'
-  gem 'guard-minitest'
+  gem 'guard', '~> 2.14', '>= 2.14.1'
 end
 
 group :development do
