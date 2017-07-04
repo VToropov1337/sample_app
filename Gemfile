@@ -37,11 +37,12 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'sqlite3'
-  
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'minitest-reporters'
   gem 'mini_backtrace'
+  gem 'guard-minitest'
   gem 'guard', '~> 2.14', '>= 2.14.1'
 end
 

@@ -19,3 +19,15 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Полную информацию об игнорировании файлов ищите по адресу:
+# https://help.github.com/articles/ignoring- les
+# Если понадобится игнорировать файлы, созданные текстовым редактором или операционной
+# системой, возможно, лучше добавить их в глобальный список игнорирования
+# git con g --global core.excludes le '~/.gitignore_global'
+# Игнорировать конфигурацию компоновщика /.bundle
+# Игнорировать базу данных SQLite по умолчанию /db/*.sqlite3
+/db/*.sqlite3-journal
+# Игнорировать все журналы и временные файлы /log/*.log
+/tmp
+# Игнорировать файлы Spring /spring/*.pid
